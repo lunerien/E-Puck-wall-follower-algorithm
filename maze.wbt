@@ -1,0 +1,1336 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.7178993411310957 -0.5436211803239195 -0.4348523293104999 1.6926840445579299
+  position 0.9380277932831844 1.6077678993409816 1.4715377717907716
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  translation 0.5 0 0.5
+  name "floor(3)"
+  size 2 2
+}
+E-puck {
+  translation 1.43 0 1.43
+  rotation 0 -1 0 -1.5707953071795862
+  controller "<extern>"
+  turretSlot [
+    SharpGP2D120 {
+      translation 0.00999985 -0.02 -0.04
+      rotation 0 1 0 1.5708
+      name "GP2D120F"
+    }
+    Compass {
+    }
+  ]
+}
+DEF PIVOT_1 Solid {
+  translation 0.17 0.05 -0.05
+  children [
+    DEF PIVOT_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.125 0.369 0.729
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.1 0.02
+      }
+    }
+  ]
+  name "solid(17)"
+}
+Solid {
+  translation -0.05 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(22)"
+}
+Solid {
+  translation 0.17 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(24)"
+}
+Solid {
+  translation -0.27 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(116)"
+}
+Solid {
+  translation 0.39 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(25)"
+}
+Solid {
+  translation 0.39 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(26)"
+}
+Solid {
+  translation 0.61 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(27)"
+}
+Solid {
+  translation 0.61 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(28)"
+}
+Solid {
+  translation 0.83 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(30)"
+}
+Solid {
+  translation 1.05 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(31)"
+}
+Solid {
+  translation 1.27 0.05 1.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(32)"
+}
+Solid {
+  translation 1.27 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(33)"
+}
+Solid {
+  translation 1.05 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(111)"
+}
+Solid {
+  translation 0.83 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(112)"
+}
+Solid {
+  translation 0.17 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(113)"
+}
+Solid {
+  translation -0.05 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(114)"
+}
+Solid {
+  translation -0.27 0.05 1.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(115)"
+}
+Solid {
+  translation 1.27 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(37)"
+}
+Solid {
+  translation 1.05 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(99)"
+}
+Solid {
+  translation 0.83 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(100)"
+}
+Solid {
+  translation 0.61 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(103)"
+}
+Solid {
+  translation 0.39 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(105)"
+}
+Solid {
+  translation 0.17 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(108)"
+}
+Solid {
+  translation -0.05 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(109)"
+}
+Solid {
+  translation -0.27 0.05 0.83
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(110)"
+}
+Solid {
+  translation 1.27 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(39)"
+}
+Solid {
+  translation 1.05 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(92)"
+}
+Solid {
+  translation 0.83 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(93)"
+}
+Solid {
+  translation 0.61 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(94)"
+}
+Solid {
+  translation 0.39 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(95)"
+}
+Solid {
+  translation 0.17 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(96)"
+}
+Solid {
+  translation -0.05 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(97)"
+}
+Solid {
+  translation -0.27 0.05 0.61
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(98)"
+}
+Solid {
+  translation 1.27 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(40)"
+}
+Solid {
+  translation 1.05 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(84)"
+}
+Solid {
+  translation 0.83 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(86)"
+}
+Solid {
+  translation 0.61 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(87)"
+}
+Solid {
+  translation 0.39 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(88)"
+}
+Solid {
+  translation 0.17 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(89)"
+}
+Solid {
+  translation -0.05 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(90)"
+}
+Solid {
+  translation -0.27 0.05 0.39
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(91)"
+}
+Solid {
+  translation 1.27 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(41)"
+}
+Solid {
+  translation 1.27 0.05 -0.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(43)"
+}
+Solid {
+  translation 1.05 0.05 -0.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(51)"
+}
+Solid {
+  translation 0.61 0.05 -0.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(68)"
+}
+Solid {
+  translation 0.39 0.05 -0.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(69)"
+}
+Solid {
+  translation -0.05 0.05 -0.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(70)"
+}
+Solid {
+  translation -0.27 0.05 -0.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(72)"
+}
+Solid {
+  translation 1.05 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(56)"
+}
+Solid {
+  translation 0.83 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(73)"
+}
+Solid {
+  translation 0.61 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(74)"
+}
+Solid {
+  translation 0.17 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(76)"
+}
+Solid {
+  translation -0.05 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(78)"
+}
+Solid {
+  translation -0.27 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(83)"
+}
+Solid {
+  translation 0.39 0.05 0.17
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(75)"
+}
+Solid {
+  translation 1.27 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(44)"
+}
+Solid {
+  translation 1.05 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(47)"
+}
+Solid {
+  translation 0.83 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(49)"
+}
+Solid {
+  translation 0.61 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(58)"
+}
+Solid {
+  translation 0.39 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(61)"
+}
+Solid {
+  translation 0.17 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(64)"
+}
+Solid {
+  translation -0.05 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(65)"
+}
+Solid {
+  translation -0.27 0.05 -0.27
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(66)"
+}
+Solid {
+  translation 0.83 0.05 -0.05
+  children [
+    USE PIVOT_SHAPE
+  ]
+  name "solid(50)"
+}
+DEF WALL_1 Solid {
+  translation 1.49 0.05 1.38
+  children [
+    DEF WALL_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.12549 0.368627 0.729412
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.1 0.2
+      }
+    }
+  ]
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_2 Solid {
+  translation 1.49 0.05 1.18
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(2)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_3 Solid {
+  translation 1.49 0.05 0.98
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(3)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_4 Solid {
+  translation 1.49 0.05 0.78
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(4)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_5 Solid {
+  translation 1.49 0.05 0.58
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(5)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_6 Solid {
+  translation 1.49 0.05 0.38
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(6)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_7 Solid {
+  translation 1.49 0.05 0.18
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(7)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_8 Solid {
+  translation 1.49 0.05 -0.02
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(8)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_9 Solid {
+  translation 1.49 0.05 -0.22
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(9)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_10 Solid {
+  translation 1.49 0.05 -0.42
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(10)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.05 0.05 1.38
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(23)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 1.05 0.05 1.38
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(29)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.27 0.05 1.16
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(11)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.61 0.05 1.16
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(34)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.83 0.05 1.16
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(35)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 1.05 0.05 1.16
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(36)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.27 0.05 0.94
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(13)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.05 0.05 0.94
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(38)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.83 0.05 0.94
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(42)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.27 0.05 0.72
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(14)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.05 0.05 0.72
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(45)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.17 0.05 0.72
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(46)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.61 0.05 0.72
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(48)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.27 0.05 0.5
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(15)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.05 0.05 0.5
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(52)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.17 0.05 0.5
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(53)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.39 0.05 0.5
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(54)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.61 0.05 0.5
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(55)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 1.05 0.05 0.5
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(57)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.05 0.05 0.28
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(59)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.17 0.05 0.28
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(60)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.61 0.05 0.28
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(62)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.83 0.05 0.28
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(63)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.27 0.05 0.06
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(19)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.17 0.05 0.06
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(67)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 1.05 0.05 0.06
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(71)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation -0.27 0.05 -0.16
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(21)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.83 0.05 -0.16
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(77)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 1.27 0.05 -0.16
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(79)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 0.39 0.05 -0.38
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(82)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_21 Solid {
+  translation 1.05 0.05 -0.38
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(85)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_101 Solid {
+  translation -0.49 0.05 0.62
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(101)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_101 Solid {
+  translation -0.49 0.05 0.82
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(12)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_101 Solid {
+  translation -0.49 0.05 1.02
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(16)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_101 Solid {
+  translation -0.49 0.05 1.22
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(18)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_101 Solid {
+  translation -0.49 0.05 1.42
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(20)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_102 Solid {
+  translation -0.49 0.05 0.42
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(102)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_104 Solid {
+  translation -0.49 0.05 0.22
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(104)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_106 Solid {
+  translation -0.49 0.05 0.02
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(106)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_107 Solid {
+  translation -0.49 0.05 -0.18
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(107)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_107 Solid {
+  translation -0.49 0.05 -0.38
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(1)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_x1 Solid {
+  translation 1.42 0.05 1.49
+  children [
+    DEF WALL_SHAPEX Shape {
+      appearance PBRAppearance {
+        baseColor 0.12549 0.368627 0.729412
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.02
+      }
+    }
+  ]
+  name "solidx"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x2 Solid {
+  translation 1.22 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(2)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x3 Solid {
+  translation 1.02 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(3)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x4 Solid {
+  translation 0.82 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(4)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x5 Solid {
+  translation 0.62 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(5)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x6 Solid {
+  translation -0.18 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(6)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x7 Solid {
+  translation -0.38 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(7)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x8 Solid {
+  translation 0.42 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(8)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x9 Solid {
+  translation 0.22 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(9)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x10 Solid {
+  translation 0.02 0.05 1.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(10)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.06 0.05 1.27
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(18)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.5 0.05 1.27
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(20)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.38 0.05 1.27
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(25)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.06 0.05 1.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(75)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.28 0.05 1.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(76)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.5 0.05 1.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(77)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.72 0.05 1.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(78)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.16 0.05 1.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(80)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation -0.16 0.05 0.83
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(66)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.28 0.05 0.83
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(68)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.5 0.05 0.83
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(69)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.94 0.05 0.83
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(71)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.16 0.05 0.83
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(72)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.38 0.05 0.83
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(73)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.72 0.05 0.61
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(61)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.94 0.05 0.61
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(63)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.16 0.05 0.61
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(64)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.5 0.05 0.39
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(53)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.16 0.05 0.39
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(55)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation -0.16 0.05 0.17
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(42)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.5 0.05 0.17
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(45)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.94 0.05 0.17
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(47)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.38 0.05 0.17
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(49)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.16 0.05 0.17
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(48)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.28 0.05 -0.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(36)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.5 0.05 -0.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(37)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.72 0.05 -0.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(38)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.94 0.05 -0.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(39)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.06 0.05 -0.05
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(35)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.06 0.05 -0.27
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(27)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.28 0.05 -0.27
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(28)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 0.72 0.05 -0.27
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(30)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x12 Solid {
+  translation 1.16 0.05 -0.27
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(32)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x101 Solid {
+  translation 1.18 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(101)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x102 Solid {
+  translation 0.98 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(102)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x103 Solid {
+  translation 0.78 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(103)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x104 Solid {
+  translation 0.58 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(104)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x105 Solid {
+  translation 0.38 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(105)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x106 Solid {
+  translation 0.18 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(106)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x107 Solid {
+  translation -0.02 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(107)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x108 Solid {
+  translation -0.22 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(108)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x109 Solid {
+  translation 1.38 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(109)"
+  boundingObject USE WALL_SHAPEX
+}
+DEF WALL_x110 Solid {
+  translation -0.42 0.05 -0.49
+  children [
+    USE WALL_SHAPEX
+  ]
+  name "solidx(110)"
+  boundingObject USE WALL_SHAPEX
+}
